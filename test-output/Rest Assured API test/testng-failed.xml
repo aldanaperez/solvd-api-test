@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rest Assured API test]" guice-stage="DEVELOPMENT">
+  <parameter name="suiteOwner" value="aperez"/>
+  <test thread-count="5" name="Rest Assured API test(failed)">
+    <classes>
+      <class name="PublicApiTest">
+        <methods>
+          <include name="testGetWeatherFromACity"/>
+          <include name="testCreateNewCustomer"/>
+        </methods>
+      </class> <!-- PublicApiTest -->
+    </classes>
+  </test> <!-- Rest Assured API test(failed) -->
+</suite> <!-- Failed suite [Rest Assured API test] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-24T01:39:34 ART" name="Default suite" finished-at="2020-04-24T01:39:39 ART" duration-ms="4506">
+    <groups>
+    </groups>
+    <test started-at="2020-04-24T01:39:34 ART" name="Default test" finished-at="2020-04-24T01:39:39 ART" duration-ms="4506">
+      <class name="PublicApiTest">
+        <test-method signature="testCreateNewCustomer()[pri:0, instance:PublicApiTest@75f32542]" started-at="2020-04-24T01:39:34 ART" name="testCreateNewCustomer" finished-at="2020-04-24T01:39:38 ART" duration-ms="3797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewCustomer -->
+        <test-method signature="testGetWeatherFromACity()[pri:0, instance:PublicApiTest@75f32542]" started-at="2020-04-24T01:39:38 ART" name="testGetWeatherFromACity" finished-at="2020-04-24T01:39:39 ART" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetWeatherFromACity -->
+      </class> <!-- PublicApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

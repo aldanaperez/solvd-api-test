@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="Rest Assured API test">
+
+	<parameter name="suiteOwner" value="aperez" />
+	<test verbose="1" name="Rest Assured API test">
+		<classes>
+			<class	name="PublicApiTest"> </class>
+		</classes>
+	</test>
+</suite> 
