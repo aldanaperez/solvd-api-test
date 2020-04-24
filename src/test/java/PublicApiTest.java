@@ -44,11 +44,9 @@ public class PublicApiTest {
 		//Request payload sending along with post request
 		JSONObject requestParams = (JSONObject) parser
 				.parse(new FileReader(ClassLoader.getSystemResource(PATH_TO_DEFAULT_JSON).getFile()));
-		System.out.println(requestParams.toJSONString());
 		requestParams.put("UserName", RandomStringUtils.randomAlphanumeric(10));
 		requestParams.put("Password", RandomStringUtils.randomAlphanumeric(10));
 		requestParams.put("Email", RandomStringUtils.randomAlphanumeric(10) + "@gmail.com");
-		System.out.println(requestParams.toJSONString());
 
 		httpRequest.header("Content-Type", "application/json");
 		httpRequest.body(requestParams.toJSONString());
